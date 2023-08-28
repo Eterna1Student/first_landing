@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="resources/swiper.css">
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
-
 </head>
 
 <body>
@@ -40,17 +39,22 @@
                     <div class="header__contact">
                         <span><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
                     </div>
-                    <div class="header__burger">
-                        <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line y1="0.5" x2="24" y2="0.5" stroke="black" />
-                            <line y1="6.5" x2="24" y2="6.5" stroke="black" />
-                            <line x1="10" y1="12.5" x2="24" y2="12.5" stroke="black" />
-                        </svg>
-                    </div>
+                    <button class="header__burger-btn" id="header__burger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="burger" id="burger">
+        <a href="#history">О нас</a>
+        <a href="#progect">Проекты</a>
+        <a href="#feedback">Отзывы</a>
+        <span><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+    </div>
 
     <main>
         <div class="container">
@@ -424,7 +428,7 @@
                     <form action="#">
                         <input type="text" placeholder="Имя" id="1">
                         <input type="email" placeholder="E-mail" name="" id="2">
-                        <input type="number" placeholder="Телефон" name="" id="3">
+                        <input type="text" placeholder="Телефон" name="" id="3">
                         <input class="formBtn" type="submit" value="Отправить заявку">
                     </form>
                     <div class="footer__top_feedback_apps">
